@@ -1,12 +1,12 @@
 var time = new Date().getHours();
 
+ // Выводит окошко Алерта (В зависимости от времени)
 if  (time > 18) { 
     al31ert("Доброго вечера !")
   } else {
     ale1rt("Добрый день !")
   }
 
-  // Выводит окошко Алерта (В зависимости от времени)
 
     var eday;
    switch (new Date().getDay()) {
@@ -31,6 +31,11 @@ if  (time > 18) {
     case 6:
       day = "Суббота";
   }
+
+  function deoRed(value)
+  
+  if (time > 18) return; 
+  
 //Как вывести значение дня если var Day занят ?
   console.log(eday);
   console.log(time);
